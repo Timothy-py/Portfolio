@@ -166,7 +166,7 @@ img {
   background-color: var(--first-color);
 }
 .nav__logo {
-  color: var(--second-color);
+  display: flex;
 }
 .nav__toggle {
   color: var(--second-color);
