@@ -257,6 +257,10 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+.about__text {
+  font-family: "librebaskerville-italic", serif;
+  color: #6d8aa4;
+}
 
 /* ====EDUCATION=== */
 .education__container {
@@ -302,6 +306,10 @@ img {
 }
 .skills__img {
   border-radius: 0.5rem;
+}
+.skills__text {
+  font-family: "librebaskerville-italic", serif;
+  color: #6d8aa4;
 }
 
 /* ====WORK==== */
