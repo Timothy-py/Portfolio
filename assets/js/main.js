@@ -52,6 +52,16 @@ sr.reveal('.skills__text', {delay: 200})
 sr.reveal('.skills__data', {interval: 200})
 sr.reveal('.skills__img', {delay: 400})
 
+// EDUCATION SCROLL
+sr.reveal('.education__subtitle', {})
+sr.reveal('.education__text', {delay: 200})
+sr.reveal('.education__win', {delay: 450})
+
+// EXPERIENCE SCROLL
+sr.reveal('.experience__subtitle', {})
+sr.reveal('.experience__text', {delay: 200})
+sr.reveal('.experience__wins', {delay: 450})
+
 // SCROLL CONTACT
 sr.reveal('.contact__input', {interval: 200})
 

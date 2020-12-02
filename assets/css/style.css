@@ -276,6 +276,26 @@ img {
   font-family: "librebaskerville-italic", serif;
 }
 
+/* ====WORK EXPERIENCE */
+.experience__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+.experience__address {
+  font-size: 1rem;
+  color: gray;
+}
+.experience__text {
+  color: #6e7881;
+  font-style: italic;
+  font-family: "librebaskerville-italic", serif;
+  margin-bottom: var(--mb-2);
+}
+.experience__wins {
+  font-family: "librebaskerville-italic", serif;
+  color: #6d8aa4;
+}
+
 /* SKILLS  */
 .skills__container {
   row-gap: 2rem;
