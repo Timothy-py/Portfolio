@@ -67,3 +67,8 @@ sr.reveal('.contact__input', {interval: 200})
 
 // SCROLL WORK
 sr.reveal('.work__img', {interval: 200})
+
+// FOOTER
+sr.reveal('.footer__title', {})
+sr.reveal('.contact__me', {delay: 200})
+sr.reveal('.contact__details', {delay: 400})

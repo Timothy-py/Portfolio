@@ -349,9 +349,6 @@ img {
   transition: 1s;
   cursor: pointer;
 }
-.work__img img:hover {
-  /* transform: scale(1.1); */
-}
 .isotope-overlay {
   position: absolute;
   top: 0;
@@ -390,7 +387,7 @@ img {
   border-radius: 0.5rem;
   border: 1.5px solid var(--second-color);
   outline: none;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
 }
 .contact__button {
   display: block;
@@ -408,20 +405,37 @@ img {
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .footer__title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  color: gray;
+  /* font-weight: lighter; */
 }
-.footer__social {
-  margin-bottom: var(--mb-4);
+.contact__me {
+  margin-bottom: var(--mb-2);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: lighter;
+  line-height: var(--mb-3);
 }
-.footer__icon {
-  font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2);
+.contact__details {
+  margin-bottom: var(--mb-3);
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.8);
 }
-
+.footest {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contactup {
+  text-align: left;
+}
+.code {
+  color: rgba(64, 112, 244, 0.4);
+}
 /* ====MEDIA QUERIES==== */
 @media screen and (min-width: 768px) {
   body {
