@@ -22,7 +22,7 @@
 }
 @media screen and (min-width: 768px) {
   :root {
-    --big-font-size: 3.5rem;
+    --big-font-size: 3rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
   }
@@ -200,7 +200,7 @@ img {
 }
 .home__title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  margin-bottom: var(--mb-3);
 }
 .home__title-color {
   color: var(--first-color);
@@ -223,7 +223,8 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 295px;
+  width: 270px;
+  z-index: -1;
 }
 .home__img img {
   border-radius: 0.5rem;
@@ -234,7 +235,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 0.75rem 2.5rem;
+  padding: 0.6rem 1.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
 }
