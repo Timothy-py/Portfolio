@@ -343,12 +343,41 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  position: relative;
 }
 .work__img img {
   transition: 1s;
   cursor: pointer;
 }
 .work__img img:hover {
+  /* transform: scale(1.1); */
+}
+.isotope-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+  background: rgba(31, 44, 108, 0.8);
+}
+.img-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: large;
+  text-align: left;
+}
+.img-content p {
+  font-size: small;
+}
+.work__img:hover .isotope-overlay {
+  opacity: 1;
   transform: scale(1.1);
 }
 
